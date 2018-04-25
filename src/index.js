@@ -63,7 +63,7 @@ class LicenseAdviser {
    */
 
   getLicenseInfo(name) {
-    return {}
+    return this.licenseData[name];
   }
 
   /**
