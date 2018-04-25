@@ -6,11 +6,11 @@ module.exports = {
         patentUse: false,
         privateUse: true,
         discloseSource: false,
-        licenseAndCopyRightNotice: false,
+        licenseAndCopyRightNotice: true,
         sameLicense: false,
         stateChange: false,
         liability: true,
-        tradeMarkUse: true,
+        tradeMarkUse: false,
         warranty: true,
         description:"MIT License (MIT)"
     },
