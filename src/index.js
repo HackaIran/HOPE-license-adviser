@@ -16,6 +16,8 @@ class LicenseAdviser {
    * @param {Object} answers - An object contains some True/False fields
    *
    * @returns {Array} Array of proper licenses according to the answers will be returned
+   * 
+   * The default answers are for the MIT license
    *
    */
 
@@ -37,12 +39,15 @@ class LicenseAdviser {
     let result = [];
 
     for(let licenseName in this.licenseData){
+      // push a new one to the result
       result.push({name:licenseName,mark:0});
+      // let's check the property and give the marks
       for(let propertyName in this.propertyData){
         if(this.licenseData[licenseName][propertyName] == answers[propertyName]){
           result[result.length-1].mark += this.propertyData[propertyName].mark;
         }
       }
+      // let's percentage it
       result[result.length-1].mark /= this.maxMark;
       result[result.length-1].mark = parseFloat(result[result.length-1].mark.toFixed(2));
     }
