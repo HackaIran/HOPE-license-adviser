@@ -58,12 +58,24 @@ class LicenseAdviser {
    *
    * @param {String} licenseName - The name of the license
    *
-   * @returns {Object} An object containing properties and description of the license with the given name will be returned
+   * @returns {Object} An object containing properties of the license with the given name will be returned
    *
    */
 
   getLicenseInfo(licenseName) {
     return this.licenseData[name];
+  }
+
+  /**
+   * 
+   * @param {String} licenseName - The name of the property
+   * 
+   * @returns {Object} An object containing mark and description of the property with the given name will be returned
+   * 
+   */
+
+  getPropertyDetails(propertyName){
+    return this.propertyData[propertyName];
   }
 
   /**
