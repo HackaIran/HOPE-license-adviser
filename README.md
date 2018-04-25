@@ -33,15 +33,15 @@ console.log(result);
 
 /*
 
-[ { name: 'MIT', mark: 0.92 },
-  { name: 'BSD-3', mark: 0.92 },
-  { name: 'BSD-2', mark: 0.92 },
-  { name: 'Apache-2.0', mark: 0.67 },
-  { name: 'EPL-1.0', mark: 0.67 },
-  { name: 'GPL-3', mark: 0.58 },
-  { name: 'LGPL-3', mark: 0.58 },
-  { name: 'MPL-2.0', mark: 0.58 },
-  { name: 'CDDL-1.0', mark: 0.58 } ]
+[ { name: 'MIT', mark: 1 },
+  { name: 'BSD-3', mark: 1 },
+  { name: 'BSD-2', mark: 1 },
+  { name: 'Apache-2.0', mark: 0.75 },
+  { name: 'EPL-1.0', mark: 0.75 },
+  { name: 'GPL-3', mark: 0.67 },
+  { name: 'LGPL-3', mark: 0.67 },
+  { name: 'MPL-2.0', mark: 0.67 },
+  { name: 'CDDL-1.0', mark: 0.67 } ]
 
 */
 
