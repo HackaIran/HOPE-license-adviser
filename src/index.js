@@ -28,7 +28,7 @@ class LicenseAdviser {
     patentUse: false,
     privateUse: true,
     discloseSource: false,
-    licenseAndCopyRightNotice: false,
+    licenseAndCopyRightNotice: true,
     sameLicense: false,
     stateChange: false,
     liability: true,
