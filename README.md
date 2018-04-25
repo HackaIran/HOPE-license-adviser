@@ -49,7 +49,7 @@ console.log(result);
 
 Other usages:
 
-For getting info of a certail prperty:
+For getting info of a certain property:
 
 ```javascript
 const LicenseAdvicer = require('hope-license-adviser');
