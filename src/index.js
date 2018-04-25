@@ -1,5 +1,3 @@
-const fs = require('fs')
-
 const licenseData = require('./data.license.js');
 
 const propertyData = require("./data.property.js");
