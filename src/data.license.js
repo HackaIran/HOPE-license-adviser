@@ -3,9 +3,14 @@ module.exports = {
         commercialUse: true,
         destribution: true,
         modification: true,
-        patentUse: null,
+        patentUse: false,
         privateUse: true,
-        discloseSource: null,
+        discloseSource: false,
         licenseAndCopyRightNotice: false,
+        sameLicense: false,
+        stateChange: false,
+        liability: true,
+        tradeMarkUse: true,
+        warranty: true
     }
 }
