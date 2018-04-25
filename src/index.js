@@ -56,13 +56,13 @@ class LicenseAdviser {
 
   /**
    *
-   * @param {String} name - The name of the license
+   * @param {String} licenseName - The name of the license
    *
    * @returns {Object} An object containing properties and description of the license with the given name will be returned
    *
    */
 
-  getLicenseInfo(name) {
+  getLicenseInfo(licenseName) {
     return this.licenseData[name];
   }
 
