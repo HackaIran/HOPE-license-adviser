@@ -11,7 +11,8 @@ module.exports = {
         stateChange: false,
         liability: true,
         tradeMarkUse: true,
-        warranty: true
+        warranty: true,
+        description:"MIT License (MIT)"
     },
     'Apache-2.0':{
         commercialUse: true,
@@ -25,7 +26,8 @@ module.exports = {
         stateChange: true,
         liability: true,
         tradeMarkUse: true,
-        warranty: true
+        warranty: true,
+        description:"Apache License 2.0 (Apache-2.0)"
     },
     'BSD-3':{
         commercialUse: true,
@@ -39,7 +41,8 @@ module.exports = {
         stateChange: false,
         liability: true,
         tradeMarkUse: false,
-        warranty: true
+        warranty: true,
+        description:"3-Clause BSD License (BSD-3-Clause)"
     },
     'BSD-2':{
         commercialUse: true,
@@ -53,7 +56,8 @@ module.exports = {
         stateChange: false,
         liability: true,
         tradeMarkUse: false,
-        warranty: true
+        warranty: true,
+        description:"2-Clause BSD License (BSD-2-Clause"
     },
     'GPL-3':{
         commercialUse: true,
@@ -67,7 +71,8 @@ module.exports = {
         stateChange: true,
         liability: true,
         tradeMarkUse: false,
-        warranty: true
+        warranty: true,
+        description:"GNU General Publice License v3 (GPL-3)"
     },
     'LGPL-3':{
         commercialUse: true,
@@ -81,7 +86,8 @@ module.exports = {
         stateChange: true,
         liability: true,
         tradeMarkUse: false,
-        warranty: true
+        warranty: true,
+        description:"GNU Lesser General Public License v3 (LGPL-3.0)"
     },
     'MPL-2.0':{
         commercialUse: true,
@@ -95,7 +101,8 @@ module.exports = {
         stateChange: false,
         liability: true,
         tradeMarkUse: true,
-        warranty: true
+        warranty: true,
+        description:"Mozilla Publice License 2.0 (MPL-2.0)"
     },
     'CDDL-1.0':{
         commercialUse: true,
@@ -109,7 +116,8 @@ module.exports = {
         stateChange: false,
         liability: true,
         tradeMarkUse: true,
-        warranty: false
+        warranty: false,
+        description:"Common Development and Distribution License v1.0 (CDDL-1.0)"
     },
     'EPL-1.0':{
         commercialUse: true,
@@ -123,6 +131,7 @@ module.exports = {
         stateChange: false,
         liability: true,
         tradeMarkUse: false,
-        warranty: true
+        warranty: true,
+        description:"Eclipse Public License v1.0 (EPL-1.0)"
     }
 }
