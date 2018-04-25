@@ -1,8 +1,8 @@
 {
-  "version": "0.0.1",
+  "version": "0.1.0",
   "name": "hope-license-adviser",
   "description": "",
-  "author": "HackaIran Team <dev@hackairan.com>",
+  "author": "HackaIran Dev Team <dev@hackairan.com>",
   "license": "MIT",
   "homepage": "https://github.com/HackaIran/hope-license-adviser",
   "repository": {
