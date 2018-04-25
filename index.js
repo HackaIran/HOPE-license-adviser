@@ -1,1 +1,3 @@
-module.exports = require('./lib')
+const LicenseAdviser = require('./lib/index');
+
+module.exports = LicenseAdviser;
