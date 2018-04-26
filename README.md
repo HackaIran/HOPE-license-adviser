@@ -14,7 +14,7 @@ An overview:
 ```javascript
 const LicenseAdvicer = require('hope-license-adviser');
 const licenseAdvicer = new LicenseAdvicer();
-let result = licenseAdviser({
+let result = licenseAdviser.advice({
     commercialUse: true,
     destribution: true,
     modification: true,
